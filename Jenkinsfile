@@ -11,7 +11,6 @@ pipeline {
 	 stages {
 		 stage('checkout') {
 			 steps {
-			  //git(url: 'https://github.com/gvsubbareddy/tf_test.git')
 			  git([url: 'https://github.com/bharatdangi03/Terraform_Docker.git', branch: 'master'])
 			 
 			 }
