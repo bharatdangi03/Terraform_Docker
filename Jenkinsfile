@@ -12,7 +12,7 @@ pipeline {
 		 stage('checkout') {
 			 steps {
 			  //git(url: 'https://github.com/gvsubbareddy/tf_test.git')
-			  git([url: 'https://github.com/gvsubbareddy/tf_test.git', branch: 'master', credentialsId: '12345-1234-4696-af25-123455'])
+			  git([url: 'https://github.com/bharatdangi03/Terraform_Docker.git', branch: 'master'])
 			 
 			 }
 		 }
