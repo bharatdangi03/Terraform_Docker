@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ARG TAG=subbu
+ARG TAG=dangi
 ENV env_var_name=$TAG
 
 ARG AWS_ACCESS_KEY_ID=test
