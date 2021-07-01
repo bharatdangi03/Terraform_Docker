@@ -1,6 +1,6 @@
 pipeline {
 	 agent { 
-	    any {
+	    Dockerfile {
 		   filename 'Dockerfile'
 		   reuseNode false
 		   //args "--TAG tmp --AWS_ACCESS_KEY_ID=test1 --AWS_SECRET_ACCESS_KEY=test2"
